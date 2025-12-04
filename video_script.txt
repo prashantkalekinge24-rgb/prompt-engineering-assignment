@@ -1,0 +1,28 @@
+Vidyard/Loom Recording Script (10 minutes)
+
+Intro (0:00 - 0:40)
+- “Hi — I’m [Your Name]. This is my Prompt Engineering assignment. I’ll show the full prompt set, the AI-generated outputs, the iteration process, and the final hosted page.”
+
+Show the prompts (0:40 - 3:00)
+- Screen: show the META-PROMPT first. Read key parts aloud: constraints, section list, output requirements.
+- Then show one section-specific prompt (Hero or Form) and explain why it’s section-specific.
+
+Show AI generation (3:00 - 5:00)
+- Run the FULL PAGE PROMPT in your chosen AI tool (or paste the provided prompts). Show the generated HTML output.
+- Point out: Tailwind CDN, semantic tags, mobile-first classes, inline SVGs, and JS hooks.
+
+Inspect the code (5:00 - 6:30)
+- Scroll through HTML: nav, hero image block, services, form with validations, footer.
+- Highlight the form validation JS and aria attributes.
+
+Open the page locally (6:30 - 7:30)
+- Open index.html in browser. Show mobile and desktop views (toggle devtools device toolbar).
+- Demonstrate: mobile menu toggle, hover states, responsive grid, and successful form submission simulation.
+
+Discuss iterations and fixes (7:30 - 9:00)
+- Explain any refinements you made (consistent colors, accessibility labels, error messages).
+- Mention how you would further refine (backend integration for form, loading states, animations).
+
+Wrap up & deliverables (9:00 - 10:00)
+- State the deliverables: prompts, generated code, summary doc, hosting instructions.
+- “Thank you — I’m ready to submit these on Internshala. If you want any changes to the style or to add backend integration, I can update the prompts and regenerate.”

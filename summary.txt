@@ -1,0 +1,32 @@
+Prompt Engineering Assignment — Summary
+
+Project: Single-page site demonstrating prompt-engineering and front-end design.
+Tooling: Tailwind CSS (CDN), vanilla JavaScript. Prompts crafted to be reusable across ChatGPT/Gemini/Claude.
+
+Why the prompts are designed this way:
+- Long, explicit meta-prompt ensures consistent output across tools and repeated runs.
+- Section-specific prompts allow targeted iteration and quick fixes without regenerating the full page.
+- Accessibility, semantic HTML, and responsive breakpoints mandated to ensure production-ready outputs.
+- Tailwind chosen for concise, readable styling and fast iteration.
+
+Prompts used:
+1. META-PROMPT (master instruction) — contains constraints, accessibility, and deliverables.
+2. NAV PROMPT, HERO PROMPT, SERVICES PROMPT, FORM PROMPT, FOOTER PROMPT — each section-specific and self-contained.
+3. FULL PAGE PROMPT — to assemble all sections in a single file.
+
+How prompts were refined:
+- Iteration 1: initial layout and spacing tuned via Tailwind utilities.
+- Iteration 2: improved accessibility (aria attributes and keyboard focus).
+- Iteration 3: added client-side form validation and success messaging.
+Challenges:
+- Ensuring consistent visual language across independently generated sections required small tweaks (consistent color tokens, spacing).
+- Balancing concise code with production-ready semantics required explicit instructions in the prompt.
+
+Deliverables included:
+- Full prompts (META + section prompts).
+- Generated single-file HTML (Tailwind + JS) — no manual edits were performed on the provided output.
+- Instructions for hosting and recording the process.
+
+Notes:
+- Replace placeholder images and brand copy as needed.
+- To host: push index.html to GitHub and enable GitHub Pages or drag-and-drop to Netlify for instant publishing.

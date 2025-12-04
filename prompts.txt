@@ -1,0 +1,31 @@
+META-PROMPT — GENERATE RESPONSIVE WEBSITE SECTIONS USING TAILWIND
+
+You are an expert front-end developer and UI designer. Produce clean, modern, responsive HTML using Tailwind CSS (via CDN) and minimal, well-structured vanilla JavaScript only where needed. Output only the code (no extra explanation) unless I explicitly request commentary.
+
+Constraints and goals:
+- Use Tailwind classes for all styling. Do not embed separate CSS files unless necessary; inline <style> may be used for critical tiny tweaks only.
+- Use semantic HTML5 tags (<nav>, <header>, <main>, <section>, <form>, <footer>, etc.).
+- Ensure mobile-first responsive design and test breakpoints for sm (640px), md (768px), lg (1024px), xl (1280px).
+- Use accessible practices: alt attributes, aria-labels where needed, good color contrast and focus outlines.
+- Provide neat spacing and alignment, consistent design language across sections (rounded corners, subtle shadows, consistent palette).
+- Avoid any external JS frameworks. Use only plain JS for interactions (mobile menu toggle, form validation).
+- Include hero image or illustration placeholders using unsplash/pexels or SVG illustrations (use direct image URLs or placeholders).
+- Use free icon SVGs inline (Heroicons or Feather) — include SVG code inline.
+- The generated code should be copy-paste-ready into a single HTML file that works immediately.
+- Where forms are required, include basic client-side validation and a simulated submission (prevent default and show success toast).
+- Keep the page visually professional and modern.
+
+Deliver the following sections exactly (each as its own semantic section), with uniform styling:
+1. Navigation Bar: brand (text + small logo shaped element), 4 links, responsive mobile menu (hamburger → slide-down), visible CTAs on desktop.
+2. Hero Section: headline (big), subtext, main CTA button, secondary CTA, optional right-side image/illustration that stacks on mobile below text.
+3. Services / Features: 3–6 cards with icon, title, 2-line description; responsive grid (one column mobile, two to three columns desktop).
+4. Contact / Lead Form: Name, Email, Company (optional), Message (textarea), Privacy checkbox, Submit. Provide labels, placeholders, and client-side validation (email format, non-empty message, checkbox required). On success, show a friendly success message or modal.
+5. Footer: site links, social icons, copyright, contact info, small newsletter input.
+
+Output Requirements:
+- Provide the complete single-page HTML with all sections assembled in order.
+- Use Tailwind CDN for styles: <script src="https://cdn.tailwindcss.com"></script> and include a small Tailwind config override if needed.
+- Include a comment at the top: "Generated with META-PROMPT — replace images/links as needed".
+- Make the code minimal but production-realistic (clear classes, small JS, not overly verbose).
+
+If generating a single section only, include enough surrounding markup so the section displays correctly (e.g., include <html>, <head> and Tailwind CDN and minimal body wrapper).
